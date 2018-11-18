@@ -30,8 +30,9 @@ en:
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
-      sign_up_button: "Create my account"
+      sign_up_button: "Create my account"      
     show:
+    create:
   activerecord:
     errors:
       messages:
@@ -174,8 +175,8 @@ en:
     template:
       body: 'There were problems with the following fields:'
       header:
-        one: 1 error prohibited this %{model} from being saved
-        other: "%{count} errors prohibited this %{model} from being saved"
+        one: "The form contains %{count} error"
+        other: "The form contains %{count} errors"
   helpers:
     select:
       prompt: Please select
