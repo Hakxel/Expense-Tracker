@@ -1,5 +1,4 @@
 es:
-
   layouts:
     footer:
       copyright: "Mi Control de Gastos ©"
@@ -34,20 +33,8 @@ es:
       sign_up_button: "Crear mi cuenta"
     show:
     create:
+      sign_up_success: "Bienvenido a Mi control de Gastos!"
 
-
-  activerecord:
-    errors:
-      attributes:
-        name: "Nombre"
-        email: "Correo"
-        password: "Contrasena"
-        confirmation: "Confirmacion"
-      messages:
-        record_invalid: "La validación falló: %{errors}"
-        restrict_dependent_destroy:
-          has_one: No se puede eliminar el registro porque existe un %{record} dependiente
-          has_many: No se puede eliminar el registro porque existen %{record} dependientes
 
   date:
     abbr_day_names:
@@ -150,11 +137,6 @@ es:
       year: Año
   errors:
     format: "%{attribute} %{message}"
-    attributes:
-      name: "Nombre"
-      email: "Correo"
-      password: "Contrasena"
-      confirmation: "Confirmacion"
     messages:
       accepted: debe ser aceptado
       blank: no puede estar en blanco
@@ -264,3 +246,16 @@ es:
       long: "%-d de %B de %Y %H:%M"
       short: "%-d de %b %H:%M"
     pm: pm
+
+  activerecord:
+    attributes:
+      user:
+        name: "Nombre"
+        email: "Correo"
+        password: "Contraseña"
+        confirmation: "Confirmación"
+      messages:
+        record_invalid: "La validación falló: %{errors}"
+        restrict_dependent_destroy:
+          has_one: No se puede eliminar el registro porque existe un %{record} dependiente
+          has_many: No se puede eliminar el registro porque existen %{record} dependientes

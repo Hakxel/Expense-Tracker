@@ -30,17 +30,12 @@ en:
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
-      sign_up_button: "Create my account"      
+      sign_up_button: "Create my account"
     show:
     create:
-  activerecord:
-    errors:
-      messages:
-        record_invalid: "Validation failed: %{errors}"
-        restrict_dependent_destroy:
-          has_one: "Cannot delete record because a dependent %{record} exists"
-          has_many: "Cannot delete record because dependent %{record} exist"
-  date:
+      sign_up_success: "Welcome to My Expenses Tracker!"
+
+    date:
     abbr_day_names:
     - Sun
     - Mon
@@ -246,3 +241,16 @@ en:
       long: "%B %d, %Y %H:%M"
       short: "%d %b %H:%M"
     pm: pm
+
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Confirmation"
+      messages:
+        record_invalid: "Validation failed: %{errors}"
+        restrict_dependent_destroy:
+          has_one: "Cannot delete record because a dependent %{record} exists"
+          has_many: "Cannot delete record because dependent %{record} exist"
