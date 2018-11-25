@@ -8,6 +8,7 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.0'
 gem 'bcrypt'
 gem 'bootstrap-sass'
+gem 'jquery-rails'
 gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'

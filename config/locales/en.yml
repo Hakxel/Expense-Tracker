@@ -9,6 +9,11 @@ en:
       home: "Home"
       about: "About"
       sign_in: "Sign in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      sign_out: "Sign out"
     application:
       base_title: "My Expenses Tracker"
 
@@ -34,6 +39,16 @@ en:
     show:
     create:
       sign_up_success: "Welcome to My Expenses Tracker!"
+
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New user?"
+      email: "Email"
+      password: "Password"
+    create:
+      sign_in_failure: 'Invalid email/password combination'
+
 
     date:
     abbr_day_names:
@@ -249,6 +264,9 @@ en:
         email: "Email"
         password: "Password"
         confirmation: "Confirmation"
+      sessions:
+        email: "Email"
+        password: "Password"
       messages:
         record_invalid: "Validation failed: %{errors}"
         restrict_dependent_destroy:

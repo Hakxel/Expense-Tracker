@@ -9,6 +9,11 @@ es:
       home: "Inicio"
       about: "Acerca de"
       sign_in: "Entrar"
+      users: "Usuarios"
+      account: "Cuenta"
+      profile: "Perfil"
+      settings: "Configuración"
+      sign_out: "Salir"
     application:
       base_title: "Mi Control de Gastos"
 
@@ -35,6 +40,14 @@ es:
     create:
       sign_up_success: "Bienvenido a Mi control de Gastos!"
 
+  sessions:
+    new:
+      login: "Entrar"
+      new_user: "Nuevo usuario?"
+      email: "Correo"
+      password: "Contraseña"
+    create:
+      sign_in_failure: 'La combinación correo/contraseña no es válida'
 
   date:
     abbr_day_names:
