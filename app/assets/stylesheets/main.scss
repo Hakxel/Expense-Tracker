@@ -185,3 +185,13 @@ input.btn.btn-primary {
     color: $state-danger-text;
   }
 }
+
+
+/* miscellaneous */
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  @include box_sizing;
+}
