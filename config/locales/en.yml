@@ -46,6 +46,7 @@ en:
       new_user: "New user?"
       email: "Email"
       password: "Password"
+      remember_me: "Remember me on this computer"
     create:
       sign_in_failure: 'Invalid email/password combination'
 

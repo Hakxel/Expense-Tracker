@@ -186,6 +186,19 @@ input.btn.btn-primary {
   }
 }
 
+.checkbox {
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
 
 /* miscellaneous */
 .debug_dump {

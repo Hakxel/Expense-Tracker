@@ -46,6 +46,7 @@ es:
       new_user: "Nuevo usuario?"
       email: "Correo"
       password: "Contraseña"
+      remember_me: "Recordarme en esta computadora"
     create:
       sign_in_failure: 'La combinación correo/contraseña no es válida'
 
