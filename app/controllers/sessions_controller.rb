@@ -7,8 +7,8 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
       log_in user
-      params[:session][:remember_me] == 1 ? remember(user) : forget() 
-      redirect_to user
+      params[:session][:remember_me] == 1 ? remember(user) : forget(user) 
+      redirect_back_or user
     else
       flash.now[:danger] = t('.sign_in_failure')
       render 'new'

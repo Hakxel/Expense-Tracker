@@ -39,6 +39,18 @@ en:
     show:
     create:
       sign_up_success: "Welcome to My Expenses Tracker!"
+    edit:
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      save_changes: "Save changes"
+      change_gravatar: "Change"
+      please_log_in: "Please sign in"
+    update:
+      profile_updated: "Profile updated"
 
   sessions:
     new:

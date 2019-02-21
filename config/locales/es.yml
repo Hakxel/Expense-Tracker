@@ -39,6 +39,18 @@ es:
     show:
     create:
       sign_up_success: "Bienvenido a Mi control de Gastos!"
+    edit:
+      edit_user: "Editar usuario"
+      update_profile: "Actualizar mi perfil"
+      name: "Nombre"
+      email: "Correo"
+      password: "Contraseña"
+      confirmation: "Confirmación"
+      save_changes: "Guardar cambios"
+      change_gravatar: "Cambiar"
+      please_log_in: "Inicia sesión para entrar"
+    update:
+      profile_updated: "El perfil ha sido actualizado"
 
   sessions:
     new:
@@ -176,8 +188,8 @@ es:
         one: "es demasiado largo (1 carácter máximo)"
         other: "es demasiado largo (%{count} caracteres máximo)"
       too_short:
-        one: "es demasiado corto (1 carácter mínimo)"
-        other: "es demasiado corto (%{count} caracteres mínimo)"
+        one: "es demasiado corta (1 carácter mínimo)"
+        other: "es demasiado corta (%{count} caracteres mínimo)"
       wrong_length:
         one: "no tiene la longitud correcta (1 carácter exactos)"
         other: "no tiene la longitud correcta (%{count} caracteres exactos)"
