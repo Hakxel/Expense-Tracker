@@ -5,7 +5,7 @@ User.create!(
   password_confirmation: "foobar"
 )
 
-99.times do |n|
+(1..99).each do |n|
   name = Faker::Name.name,
   email = "example-#{n+1}@railstutorial.org",
   password = "password"

@@ -6,7 +6,6 @@ ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-gem 'faker'
 gem 'i18n'
 gem 'hirb'
 gem 'rails', '~> 5.2.0'
@@ -44,6 +43,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.3.0', require: false
 
 group :development, :test do
+  gem 'faker'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~>1.3.6'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
