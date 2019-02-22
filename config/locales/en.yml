@@ -37,6 +37,7 @@ en:
       confirmation: "Confirmation"
       sign_up_button: "Create my account"
     show:
+      please_log_in: "Please sign in"
     create:
       sign_up_success: "Welcome to My Expenses Tracker!"
     edit:

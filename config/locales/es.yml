@@ -37,6 +37,7 @@ es:
       confirmation: "Confirmación"
       sign_up_button: "Crear mi cuenta"
     show:
+      please_log_in: "Inicia sesión para entrar"
     create:
       sign_up_success: "Bienvenido a Mi control de Gastos!"
     edit:
@@ -51,6 +52,7 @@ es:
       please_log_in: "Inicia sesión para entrar"
     update:
       profile_updated: "El perfil ha sido actualizado"
+      please_log_in: "Inicia sesión para entrar"
 
   sessions:
     new:
